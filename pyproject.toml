@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "broadcast-server"
+version = "0.1.0"
+description = "Uma aplicação em CLI que busca reforçar os conceitos de Websocket."
+authors = ["Filipe Braga <developer.filipe@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
